@@ -653,6 +653,11 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
+blockquote{
+    margin:auto;
+    letter-spacing: 1px;
+    width:75%;
+}
 
 .container {
     max-width: 1000px;
