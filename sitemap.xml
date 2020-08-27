@@ -6,21 +6,21 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 
-<url>
-  <loc>https://lilie65.github.io/projet4_modifi-/</loc>
-  <lastmod>2020-08-27T12:44:15+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://lilie65.github.io/projet4_modifi-/index.html</loc>
-  <lastmod>2020-08-27T12:44:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://lilie65.github.io/projet4_modifi-/contact.html</loc>
-  <lastmod>2020-08-27T12:44:15+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+  <url>
+    <loc>https://lilie65.github.io/projet4_modifi-/</loc>
+    <lastmod>2020-08-27T12:44:15+00:00</lastmod>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://lilie65.github.io/projet4_modifi-/index.html</loc>
+    <lastmod>2020-08-27T12:44:15+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://lilie65.github.io/projet4_modifi-/contact.html</loc>
+    <lastmod>2020-08-27T12:44:15+00:00</lastmod>
+    <priority>0.80</priority>
+  </url>
 
 
 </urlset>
