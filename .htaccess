@@ -1,15 +1,25 @@
-<FilesMatch "\.(js|css|gif|jpg|jpeg|png|ico)$">
-Header unset Cookie
-Header unset Set-Cookie
+etOutputFilter DEFLATE
+AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript
 
-Header set Cache-Control "max-age=31536000"
+BrowserMatch ^Mozilla/4 gzip-only-text/html
+BrowserMatch ^Mozilla/4\.0[678] no-gzip
+BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
 
-Header set vary  "Accept-Encoding"
-Header append vary "User-Agent"
-Header append Cache-Control "public" 
-
-Header append Connection "Keep-Alive"
-Header append Keep-Alive "timeout=5, max=100"
-
-FileETag None
+# BEGIN Cache-Control Headers
+<IfModule mod_headers.c>
+<FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz)$">
+Header set Cache-Control "max-age=2592000, public"
 </FilesMatch>
+<FilesMatch "\.(js)$">
+Header set Cache-Control "max-age=2592000, private"
+</FilesMatch>
+<filesMatch "\.(html|htm)$">
+Header set Cache-Control "max-age=7200, public"
+</filesMatch>
+# Enleve le cache pour les ressources dynamiques
+<FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
+Header unset Cache-Control
+</FilesMatch>
+</IfModule>
+# END Cache-Control Headers
