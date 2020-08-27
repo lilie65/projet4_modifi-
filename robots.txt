@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap:https://github.com/lilie65/projet4_modifi-/blob/cache2/sitemap.xml
+Sitemap:https://github.com/lilie65/projet4_modifi-/sitemap.xml
