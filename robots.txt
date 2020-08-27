@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap:https://lilie65.github.io/projet4_modifi-/sitemap.xml
