@@ -1,11 +1,3 @@
-/*!
- * Bootstrap v3.3.5 (http://getbootstrap.com)
- * Copyright 2011-2015 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
-
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
@@ -3251,7 +3243,7 @@ input[type=search] {
 .radio-inline input[type=radio] {
     position: absolute;
     margin-top: 4px\9;
-    margin-left: -20px
+    margin-left: -20px;
 }
 
 .checkbox+.checkbox,
@@ -5189,7 +5181,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .navbar-brand {
     float: left;
     height: 50px;
-    padding: 15px 15px;
+    padding: 15px;
     font-size: 18px;
     line-height: 20px
 }
