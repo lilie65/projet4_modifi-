@@ -1,4 +1,3 @@
-etOutputFilter DEFLATE
 AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript
 
 BrowserMatch ^Mozilla/4 gzip-only-text/html
