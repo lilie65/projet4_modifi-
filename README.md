@@ -1,5 +1,5 @@
 # Projet 4 version modifié
-Voici la midification apporté au site [ma Page](https://lilie65.github.io/projet4_modifi-/) !
+Voici la modification apporté au site [Projet4](https://lilie65.github.io/projet4_modifi-/) !
 
 ![index](https://user-images.githubusercontent.com/64195562/92375728-cde7c000-f101-11ea-9804-390458b1a8a1.jpg)
 ## Les axes d'amélioration
