@@ -118,7 +118,9 @@ a:hover {
 .d-bloc .divider-h span {
     border-color: rgba(255, 255, 255, .2);
 }
-
+.col-sm-4{
+    visibility: collapse;
+}
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
@@ -630,7 +632,8 @@ a[data-lightbox]:focus img {
 .prev-lightbox:hover,
 .close-lightbox:focus,
 .next-lightbox:focus,
-.prev-lightbox:focus {
+.prev-lightbox:focus
+{
     opacity: 1.0;
     color: #FFF;
 }
@@ -874,7 +877,7 @@ ltc-white:focus{
     background-image: url("../img/image-de-presentation.png");
 }
  
-external_links{
+.external_links{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -904,10 +907,14 @@ external_links{
     padding-top: 30px;
     width:450px;
 }
+.col-sm-4{
+    display:none
+}
 iframe{
     width:350px;
     height:350px;
 }
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1014,6 +1021,7 @@ iframe{
     .nav > li:focus  {
         background: rgba(0, 0, 0, .08);
     }
+    
     .dropdown .dropdown a .caret {
         float: none;
         margin: 5px 0 0 10px!important;
